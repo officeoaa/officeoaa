@@ -1,6 +1,51 @@
 window.oaArticles = [
 
   // ============================================================
+  // WEEK 2 — APRIL 13–19, 2026 — ACT II: "THE RECOGNITION"
+  // ============================================================
+
+  // BREAKING — IJTOAA Publication #1 — Monday April 14, 09:00
+  {
+    id: "breaking-ijtoaa-1-publication",
+    title: "OAA Publishes First Peer-Reviewed Paper; Community Reacts With Emotion Proportional to Its Significance",
+    date: "2026-04-14",
+    publish_date: "2026-04-14T09:00",
+    status: "published",
+    thread: "B",
+    format: "breaking",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["IJTOAA", "Publication", "Arjun Calculon", "Rector", "Research"],
+    excerpt: "The Office of Alternate Academia has produced its first peer-reviewed publication, confirming \u2014 through the use of an entirely self-generated dataset \u2014 that the institution is excellent.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `BREAKING: The OAA has published its first peer-reviewed paper.\n\nTitle: \u201cOn the Measurability of Institutional Excellence in the Absence of Measurable Outcomes.\u201d\nAuthors: Prof. Arjun Calculon and Supreme Grand Rector Infinitum (corresponding).\n\nThe paper introduces the Impactlessness Index. The OAA scores 94.7 out of a possible 94.7. The result has been described as \u201cnot surprising\u201d by the institution that produced it.\n\nColleagues are moved. Reviewer #2 has not commented. This is being interpreted as approval.\n\n#OAA #IJTOAA #OfficeOfAlternateAcademia #AcademicLife #FakeResearch #SatireAlert`,
+      instagram: `BREAKING: The OAA has published.\n\nIts first peer-reviewed paper confirms the institution is excellent.\nThe dataset was self-generated.\nThe score was 94.7 out of 94.7.\nThe maximum was defined after the score was achieved.\n\nEveryone is very proud. Especially the corresponding author.`,
+      hashtags: ["#OAA", "#IJTOAA", "#OfficeOfAlternateAcademia", "#AcademicLife", "#FakeResearch", "#SatireAlert", "#HigherEd", "#AcademicHumor"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A ceremonial unveiling \u2014 a framed academic paper hangs on the wall while two figures stand before it: one shorter, in professorial attire, looking quietly uncertain; one taller, in ceremonial robes with glowing teal lenses, gesturing grandly at the frame as if he personally built it. A small crowd of onlookers applauds.\nMood: self-congratulatory, absurd.\nNo text, no logos, no real people.`,
+      copy: `The OAA has published its first peer-reviewed paper. It confirms that the institution is excellent. The methodology is proprietary. The data is self-generated. The corresponding author is the Rector. Prof. Arjun Calculon developed the mathematical framework during a period he has since described as \u201cgenuinely distressing.\u201d`
+    },
+    content: `
+      <p>The Office of Alternate Academia has produced its first peer-reviewed publication, confirming \u2014 through the use of an entirely self-generated dataset and a methodology the authors describe as \u201cproprietary\u201d \u2014 that the institution is, in fact, excellent.</p>
+
+      <p>The paper, titled <em>On the Measurability of Institutional Excellence in the Absence of Measurable Outcomes</em>, appears in the inaugural issue of the Interdimensional Journal of The Office of Alternate Academia (IJTOAA). It was authored by Prof. Arjun Calculon and Supreme Grand Rector Infinitum, who appears as corresponding author following a memo that arrived after submission and before acceptance, a sequence the editorial board has described as \u201cprocedurally uncontested.\u201d</p>
+
+      <p>The paper introduces the Impactlessness Index (II), a composite metric for evaluating the excellence of institutions that produce no verifiable outcomes. The OAA achieved a score of 94.7 out of a possible 94.7. The ceiling was defined after the score was calculated. This is not considered a conflict of interest.</p>
+
+      <p>Colleagues across the institution have reacted with warmth and, in several documented cases, visible moisture around the eyes. \u201cProf. Calculon has given us something genuinely difficult to argue with,\u201d said one member of the mathematics faculty, who asked not to be named. \u201cMostly because the methodology is self-referential and the dataset is classified.\u201d</p>
+
+      <p>The Rector\u2019s contribution to the paper \u2014 listed as \u201ctheoretical\u201d \u2014 is understood to consist primarily of corresponding authorship and a single annotation reading \u201cexcellent, confirmed\u201d on the draft abstract. Multiple colleagues have described this as \u201cexactly the kind of leadership we needed at this stage.\u201d Several of them smiled when they said it.</p>
+
+      <p>Reviewer #2, who was invited to evaluate the manuscript, did not submit comments. The editorial board has interpreted this as peer approval. Reviewer #2 has not confirmed or denied this interpretation, which the board has also interpreted as approval.</p>
+
+      <p>The paper is available via the IJTOAA publications portal. The dataset underpinning the findings is available upon request to the corresponding author, who has pre-declined all requests on procedural grounds.</p>
+
+      <p>Prof. Calculon, reached for comment, said only that the work was \u201cdone.\u201d He appeared relieved.</p>
+    `
+  },
+
+  // ============================================================
   // WEEK 1 — APRIL 7–12, 2026 — ACT I: "THE RESPONSE"
   // ============================================================
 

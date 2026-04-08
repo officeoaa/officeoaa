@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IJTOAA | The Office of Alternate Academia</title>
+  <meta name="description" content="Interdimensional Journal of The Office of Alternate Academia — peer-reviewed fictional academic publications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pub-journal-meta {
+      font-size: 0.78rem;
+      color: var(--text-3);
+      margin-top: 0.25rem;
+      font-family: var(--font-mono);
+      letter-spacing: 0.02em;
+    }
+    .pub-list {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .pub-entry {
+      border-top: 1px solid var(--border);
+      padding-top: 1.25rem;
+    }
+    .pub-vol-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-3);
+      font-family: var(--font-body);
+      margin-bottom: 0.35rem;
+    }
+    .pub-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.3rem;
+    }
+    .pub-title a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .pub-title a:hover {
+      text-decoration: underline;
+    }
+    .pub-authors {
+      font-size: 0.85rem;
+      color: var(--text-2);
+      margin-bottom: 0.4rem;
+    }
+    .pub-doi {
+      font-size: 0.72rem;
+      color: var(--text-3);
+      font-family: var(--font-mono);
+    }
+    .pub-abstract {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: var(--text-2);
+      line-height: 1.6;
+      max-width: 72ch;
+    }
+    .pub-empty {
+      padding: 3rem 0;
+      color: var(--text-3);
+      font-style: italic;
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar compact">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img id="brandLogo" src="images/logo_dark.png" alt="OAA"></span>
+        <div>
+          <p class="eyebrow">Satirical Academic Intelligence Bulletin</p>
+          <h1>The Office of Alternate Academia</h1>
+        </div>
+      </a>
+
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="index.html#latest">News</a>
+          <a href="index.html#characters">Characters</a>
+          <a href="media.html">Media</a>
+          <a href="publication.html" class="active">Publications</a>
+          <a href="index.html#about">About</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-icon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Peer-reviewed fictional scholarship</p>
+            <h3>Interdimensional Journal of The Office of Alternate Academia</h3>
+          </div>
+        </div>
+        <p class="pub-journal-meta">ISSN: 0000-0000 (print) &nbsp;|&nbsp; ISSN: 0000-0001 (online) &nbsp;|&nbsp; Publisher: The Office of Alternate Academia Press, Interdimensional Sector</p>
+
+        <div id="pubList" class="pub-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© The Office of Alternate Academia — Officially unofficial, institutionally unstable.</p>
+
+        <div class="footer-meta-links">
+          <a href="privacy.html">Privacy & GDPR</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.facebook.com/officeoaa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <span class="social-icon">f</span>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/officeoaa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <span class="social-icon">◎</span>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/@officeoaa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <span class="social-icon">▶</span>
+            <span>YouTube</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="data/publications.js"></script>
+  <script>
+    (function () {
+      const container = document.getElementById('pubList');
+
+      function isVisible(pub) {
+        const now = new Date();
+        const pub_dt = new Date(pub.publishDate + 'T00:00:00');
+        return now >= pub_dt;
+      }
+
+      const visible = (window.oaPublications || [])
+        .filter(isVisible)
+        .sort((a, b) => {
+          if (a.volume !== b.volume) return b.volume - a.volume;
+          if (a.issue !== b.issue) return b.issue - a.issue;
+          return a.articleNumber - b.articleNumber;
+        });
+
+      if (visible.length === 0) {
+        container.innerHTML = '<p class="pub-empty">No publications found. The editorial board is reviewing submissions. The review process is ongoing. The expected completion date is classified.</p>';
+        return;
+      }
+
+      // Group by volume/issue
+      const groups = {};
+      visible.forEach(p => {
+        const key = `${p.volume}_${p.issue}`;
+        if (!groups[key]) groups[key] = { volume: p.volume, issue: p.issue, year: p.year, items: [] };
+        groups[key].items.push(p);
+      });
+
+      Object.values(groups)
+        .sort((a, b) => b.volume - a.volume || b.issue - a.issue)
+        .forEach(group => {
+          const volHeader = document.createElement('h4');
+          volHeader.style.cssText = 'font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);margin:1.5rem 0 0.5rem;font-family:var(--font-body);';
+          volHeader.textContent = `Vol. ${group.volume}, No. ${group.issue} (${group.year})`;
+          container.appendChild(volHeader);
+
+          group.items.forEach(pub => {
+            const el = document.createElement('div');
+            el.className = 'pub-entry';
+
+            const volLabel = document.createElement('p');
+            volLabel.className = 'pub-vol-label';
+            volLabel.textContent = `${group.volume}(${group.issue}) · Article ${pub.articleNumber}`;
+            el.appendChild(volLabel);
+
+            const titleEl = document.createElement('p');
+            titleEl.className = 'pub-title';
+            const link = document.createElement('a');
+            link.href = pub.pdf;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = pub.title;
+            titleEl.appendChild(link);
+            el.appendChild(titleEl);
+
+            const authorsEl = document.createElement('p');
+            authorsEl.className = 'pub-authors';
+            authorsEl.textContent = pub.authors.join(', ');
+            el.appendChild(authorsEl);
+
+            const doiEl = document.createElement('p');
+            doiEl.className = 'pub-doi';
+            doiEl.textContent = `DOI: ${pub.doi}`;
+            el.appendChild(doiEl);
+
+            if (pub.abstract) {
+              const absEl = document.createElement('p');
+              absEl.className = 'pub-abstract';
+              absEl.textContent = pub.abstract;
+              el.appendChild(absEl);
+            }
+
+            container.appendChild(el);
+          });
+        });
+    })();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
