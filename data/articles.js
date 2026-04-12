@@ -1,10 +1,456 @@
 window.oaArticles = [
 
   // ============================================================
-  // WEEK 2 — APRIL 13–19, 2026 — ACT II: "THE RECOGNITION"
+  // WEEK 2 — APRIL 13–19, 2026 — ACT I: "THE RESPONSE"
   // ============================================================
 
-  // BREAKING — IJTOAA Publication #1 — Monday April 14, 09:00
+  // SOCIAL #3 (week 2) — "This Week at the OAA" — Saturday April 18, 20:00
+  {
+    id: "social-week-2-this-week",
+    title: "This Week at the OAA \u2014 Week 2",
+    date: "2026-04-18",
+    publish_date: "2026-04-18T20:00",
+    status: "published",
+    thread: "multi",
+    format: "social-only",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["Institution", "Accreditation", "Social", "Compliance"],
+    excerpt: "The OAA\u2019s compliance gap has been quantified. The gap remains. A form for addressing the gap is available, pending two prerequisite forms.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `THIS WEEK AT THE OAA:\n\n\u2022 Prof. Calculon presented 47 slides to six people. The gap is 94 units wide. The units are proprietary.\n\u2022 Form 7.4.2-AAD is now available. It requires two other forms to access. Those forms require each other.\n\u2022 Clara Quark has been appointed Student Research Volunteer Coordinator (Acting). The appointment arrived via Post-it note.\n\nThe OAA: moving forward, pending receipt of the relevant forms.\n\n#OAA #OfficeOfAlternateAcademia #Accreditation #AcademicLife #SatireAlert`,
+      instagram: `THIS WEEK AT THE OAA:\n\n\u2022 47 slides. 6 attendees. 0 decisions.\n\u2022 A form is available to access the accreditation forms. It requires two other forms.\n\u2022 A student got an institutional appointment via Post-it. No salary line.\n\nThe OAA: pending receipt of the relevant forms.`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#AcademicLife", "#SatireAlert", "#FictionalUniversity", "#HigherEd", "#Bureaucracy"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A wide institutional corridor \u2014 on the left, a projection screen visible through an open door showing a large empty circle; in the center, a young woman in a university hoodie stares at a small note stuck to a door; to the right, a towering filing cabinet with labeled drawers.\nMood: melancholic, absurd.\nNo text, no logos, no real people.`,
+      copy: `Week two. The gap was measured. The gap is still there. Clara Quark has been appointed to a role that does not appear in the institutional directory. The form for dealing with any of this requires two prerequisite forms. Progress continues.`
+    },
+    content: `<p>THIS WEEK AT THE OAA:</p><ul><li>Prof. Calculon presented 47 slides to six people. The compliance gap is 94 units wide. The units are proprietary.</li><li>Form 7.4.2-AAD is now available. Accessing it requires two prerequisite forms. Each prerequisite form references the other.</li><li>Clara Quark has been appointed Student Research Volunteer Coordinator (Acting). The appointment was delivered via Post-it note. No salary line is present.</li></ul><p>The OAA is moving forward, pending receipt of the relevant forms.</p>`
+  },
+
+  // BREAKING #7 — Max / ESRTF meeting minutes — Saturday April 18, 13:00
+  {
+    id: "max-query-noted-not-addressed",
+    title: "ESRTF Meeting Minutes Confirm Student Representative Query \u2018Noted\u2019; Query Not Addressed",
+    date: "2026-04-18",
+    publish_date: "2026-04-18T13:00",
+    status: "published",
+    thread: "C",
+    format: "breaking",
+    author: "Max Afterparty",
+    authorId: "max-afterparty",
+    tags: ["Max Afterparty", "ESRTF", "Accreditation", "Meeting Minutes"],
+    excerpt: "Official minutes from the most recent Emergency Strategic Response Task Force session confirm that a query from the Non-Voting Student Representative was noted but not addressed. His indication of understanding was also noted.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `FROM THE ESRTF MEETING MINUTES:\n\n\u201cStudent Representative (Non-Voting, Acting) M. Afterparty raised a query regarding the scope of the compliance gap. Query noted. Query not addressed. Student Representative indicated understanding. Student Representative\u2019s indication of understanding noted.\u201d\n\nMax Afterparty, asked for comment: \u201cThe coffee was good.\u201d\n\n#OAA #OfficeOfAlternateAcademia #MaxAfterparty #ESRTF #Bureaucracy`,
+      instagram: `FROM THE ESRTF MINUTES:\n\nQuery noted.\nQuery not addressed.\nUnderstanding noted.\n\nMax Afterparty: \u201cThe coffee was good.\u201d\n\n#OAA #MaxAfterparty #ESRTF #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#MaxAfterparty", "#ESRTF", "#AcademicLife", "#Bureaucracy", "#HigherEd"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A nearly empty meeting room \u2014 a young man in sunglasses sits alone at a long conference table, a coffee cup in front of him, looking at an empty projection screen. Official-looking binders are stacked to one side. The chairs around him are vacant.\nMood: melancholic, absurd.\nNo text, no logos, no real people.`,
+      copy: `The ESRTF meeting minutes are out. Max Afterparty\u2019s question about the compliance gap was noted. It was not addressed. His understanding of this was also noted. The coffee, he confirms, was good.`
+    },
+    content: `
+      <p>The official minutes of the most recent Emergency Strategic Response Task Force (ESRTF) meeting, released this week, contain the following entry under Item 4 \u2014 Floor Discussion:</p>
+
+      <p><em>\u201cStudent Representative (Non-Voting, Acting) M. Afterparty raised a query regarding the scope of the compliance gap as represented in the Quantitative Framework presentation. Query noted. Query not addressed. Discussion returned to Slide 31 methodology. Student Representative indicated understanding. Student Representative\u2019s indication of understanding noted.\u201d</em></p>
+
+      <p>Max Afterparty, reached for comment, confirmed that he had raised the query. He said he was, in retrospect, \u201cpretty sure about it.\u201d He also confirmed that he had attended the full session without removing his sunglasses.</p>
+
+      <p>\u201cI just wanted to know if the gap was like \u2014 the whole thing,\u201d Afterparty said. \u201cSlide 31 had a circle. The circle was the gap. I think.\u201d He paused. \u201cThe coffee was good.\u201d</p>
+
+      <p>The query has not been added to the agenda of the next ESRTF session. A note regarding agenda additions is pending completion of Accreditation-Adjacent Documentation (AAD) Class II documentation.</p>
+    `
+  },
+
+  // BREAKING #6 — Magnus / ISAR correction memo — Saturday April 18, 10:00
+  {
+    id: "magnus-isar-correction-memo",
+    title: "Prof. Magnus Submits 43-Page Correction to ISAR; Document Contains Nine Footnotes, Eight of Which Cite Same 1987 Paper",
+    date: "2026-04-18",
+    publish_date: "2026-04-18T10:00",
+    status: "published",
+    thread: "A",
+    format: "breaking",
+    author: "Victor Magnus",
+    authorId: "victor-magnus",
+    tags: ["Victor Magnus", "ISAR", "Accreditation", "Institutional History"],
+    excerpt: "Prof. Victor Magnus, Emeritus Professor of Institutional History, has submitted a 43-page correction memo to the ISAR identifying seventeen factual inaccuracies. Eight of the document\u2019s nine footnotes cite his 1987 paper.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `PROF. MAGNUS HAS READ THE ISAR.\n\nHe found 17 factual inaccuracies.\nHe submitted a 43-page correction.\n9 footnotes. 8 of them: same paper. 1987. His.\n\nThe correction has been filed under AAD Class IV.\nIt has not been read.\n\nThe OAA: where the record is corrected and the correction is filed.\n\n#OAA #OfficeOfAlternateAcademia #VictorMagnus #AcademicLife #AcademicHumor`,
+      instagram: `PROF. MAGNUS HAS READ THE ISAR.\n\n17 errors. 43 pages. 8 footnotes: same 1987 paper. His.\n\nFiled under AAD Class IV.\nNot read.\n\n#OAA #VictorMagnus #AcademicLife #Bureaucracy`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#VictorMagnus", "#AcademicLife", "#AcademicHumor", "#PeerReview", "#HigherEd"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: An elderly professor in tweed sits at a cluttered desk, pen in hand, looking satisfied. A single slim book is prominently displayed beside him. Across the desk: a thick institutional report covered in handwritten margin annotations.\nMood: self-assured, quietly melancholic.\nNo text, no logos, no real people.`,
+      copy: `Prof. Magnus read the Institutional Self-Assessment Report. He found seventeen errors. He submitted a 43-page correction that cites his 1987 paper eight times. The correction has been filed under AAD Class IV. It has not been read. This is consistent with the pattern documented in the 1987 paper.`
+    },
+    content: `
+      <p>Prof. Victor Magnus, Emeritus Professor of Institutional History, has submitted a 43-page correction memo to the Institutional Self-Assessment Report (ISAR), identifying what he describes as \u201cseventeen substantive factual inaccuracies affecting the historical integrity of the document.\u201d</p>
+
+      <p>The memo, submitted simultaneously to the Emergency Strategic Response Task Force (ESRTF), the Rector\u2019s office, the Office of Administrative Affairs, and \u2014 in what Prof. Magnus described as \u201can abundance of caution\u201d \u2014 to the Global Academic Standards Consortium (GASC) directly, identifies errors including the institution\u2019s founding date, the correct name of the first library annex, and the documented outcome of the 1994 institutional review.</p>
+
+      <p>The document contains nine footnotes. Eight of them cite Magnus, V. (1987). <em>Institutional Memory and Its Discontents: A Study in Academic Self-Representation.</em> The ninth cites a 1983 conference proceedings volume. Prof. Magnus described both citations as \u201cessential to the argument.\u201d</p>
+
+      <p>\u201cThe historical record is not a matter of institutional convenience,\u201d Prof. Magnus said. \u201cIt is a matter of what happened. I was present for a great deal of it. The ISAR, demonstrably, was not.\u201d</p>
+
+      <p>The correction memo has been received by the ESRTF and logged under Accreditation-Adjacent Documentation (AAD) Class IV, pending assignment of a processing pathway. It has not been read. Prof. Magnus expressed no surprise at this outcome. He said it was consistent with the pattern he documented in 1987.</p>
+    `
+  },
+
+  // FOUND DOCUMENT #2 — Astrid press release — Friday April 17, 19:00
+  {
+    id: "astrid-calculon-presentation-release",
+    title: "OAA Demonstrates Analytical Depth at ESRTF Session; Engagement Described as \u2018Multidimensional\u2019",
+    date: "2026-04-17",
+    publish_date: "2026-04-17T19:00",
+    status: "published",
+    thread: "A",
+    format: "found-press-release",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["Astrid Vox", "ESRTF", "Accreditation", "Prof. Calculon", "Communications"],
+    excerpt: "The Office of Communications has released a statement describing Prof. Calculon\u2019s compliance gap presentation as a demonstration of analytical depth. The word \u2018confusion\u2019 does not appear. The word \u2018dialogue\u2019 appears four times.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `FOR IMMEDIATE RELEASE\n\nThe OAA says the compliance gap presentation was \u201cmultidimensional.\u201d\n\n\u201cConfusion\u201d: not mentioned.\n\u201cDialogue\u201d: appears four times.\nThe gap: reframed as \u201can opportunity for structured engagement.\u201d\n\nAstrid Vox: \u201cWe are thrilled to be in conversation with our own data.\u201d\n\n#OAA #OfficeOfAlternateAcademia #AstridVox #AcademicLife #PR #SatireAlert`,
+      instagram: `FOR IMMEDIATE RELEASE:\n\nThe OAA calls the presentation \u201cmultidimensional.\u201d\n\u201cDialogue\u201d: \u00d74. \u201cConfusion\u201d: \u00d70.\nThe gap: \u201can engagement opportunity.\u201d\n\nAstrid Vox: \u201cIn conversation with our own data.\u201d\n\n#OAA #AstridVox #AcademicHumor #SatireAlert`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#AstridVox", "#AcademicLife", "#PR", "#SatireAlert", "#HigherEd"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A stylish PR professional surrounded by screens and mood boards, gesturing confidently toward a large circular diagram on a monitor behind her. The circle on the screen is empty. She appears genuinely enthusiastic.\nMood: polished, absurd.\nNo text, no logos, no real people.`,
+      copy: `Astrid Vox has issued a press release about the Calculon presentation. It is 380 words long. None of them are \u201cconfusion,\u201d \u201cempty,\u201d or \u201csix people.\u201d The word \u201cmultidimensional\u201d appears twice. The OAA is in dialogue with its own data.`
+    },
+    content: `
+      <p>FOR IMMEDIATE RELEASE<br>
+      From the Office of Communications \u2014 Office of Alternate Academia<br>
+      Contact: Office of Communications<br>
+      Date: April 17, 2026</p>
+
+      <p><strong>OAA Demonstrates Analytical Depth at ESRTF Session; Task Force Engagement Described as Multidimensional</strong></p>
+
+      <p>The Office of Alternate Academia (OAA) is pleased to announce the successful convening of its Emergency Strategic Response Task Force (ESRTF) for a full Compliance Gap Analysis session, at which Prof. Arjun Calculon, Head of the Department of Computational Everything, presented a comprehensive quantitative framework to task force members and institutional stakeholders.</p>
+
+      <p>The session exemplified the OAA\u2019s commitment to evidence-based dialogue. The analysis presented \u2014 a 47-point framework integrating regression modeling, composite indexing, and institutional readiness visualization \u2014 reflects the depth of analytical engagement that defines the OAA\u2019s approach to accreditation preparedness.</p>
+
+      <p>\u201cWe are thrilled to be in direct conversation with our own data,\u201d said Dr. Astrid Vox, Head of Communications and Public Engagement. \u201cThe dialogue generated in this session was multidimensional. The engagement was structured. The outcomes are being processed through appropriate channels.\u201d</p>
+
+      <p>The compliance gap, identified through Prof. Calculon\u2019s framework, has been described as \u201can opportunity for structured institutional engagement.\u201d Follow-up discussions are anticipated. Documentation protocols are in place.</p>
+
+      <p>The OAA thanks all participants for their contribution to this ongoing process.</p>
+
+      <p><em>Note to editors: Further information regarding the quantitative framework is available upon completion of the appropriate Accreditation-Adjacent Documentation (AAD) request. Processing times vary.</em></p>
+    `
+  },
+
+  // BREAKING #5 — Cashburn compliance grant — Friday April 17, 12:30
+  {
+    id: "cashburn-compliance-grant",
+    title: "Dr. Cashburn Submits Compliance Grant Application; OAA\u2019s Own Accreditation Review Listed as Primary Empirical Context",
+    date: "2026-04-17",
+    publish_date: "2026-04-17T12:30",
+    status: "published",
+    thread: "A",
+    format: "breaking",
+    author: "Dr. Felicity Cashburn",
+    authorId: "felicity-cashburn",
+    tags: ["Dr. Cashburn", "Research Funding", "Accreditation", "Grant"],
+    excerpt: "Dr. Felicity Cashburn has submitted a grant application in which the OAA\u2019s ongoing accreditation review serves as the empirical context. The accreditation is described as \u2018a uniquely data-rich institutional environment.\u2019",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `DR. CASHBURN HAS SUBMITTED A GRANT APPLICATION.\n\nResearch question: how do institutions prepare for accreditation?\nEmpirical context: the OAA\u2019s accreditation.\nThe accreditation is not described as a crisis. It is described as \u201ca uniquely data-rich environment.\u201d\n\nEthics review timeline: \u201cbeing managed.\u201d\n\nThe OAA: where every problem is, on closer inspection, a funding opportunity.\n\n#OAA #OfficeOfAlternateAcademia #DrCashburn #AcademicLife #GrantLife`,
+      instagram: `DR. CASHBURN HAS SUBMITTED A GRANT.\n\nContext: the OAA\u2019s accreditation.\n(Not a crisis. \u201cData-rich.\u201d)\n\nEthics review: \u201cbeing managed.\u201d\nOne co-investigator didn\u2019t know they were listed.\n\n#OAA #DrCashburn #GrantLife #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#DrCashburn", "#AcademicLife", "#GrantLife", "#HigherEd", "#Research"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A sharp-suited woman sits at a polished desk, smiling at a color-coded spreadsheet, with organized binders arranged beside her. A formal grant application document sits prominently on the desk. Her expression suggests controlled enthusiasm.\nMood: transactional, polished, absurd.\nNo text, no logos, no real people.`,
+      copy: `Dr. Cashburn has filed a grant application. The OAA\u2019s accreditation review is the empirical basis. The word \u201ccrisis\u201d does not appear. The ethics timeline is being managed. One of the three listed co-investigators did not know they were listed.`
+    },
+    content: `
+      <p>Dr. Felicity Cashburn, Director of Research Funding and Grant Strategy, has submitted a formal grant application to the National Institute for Institutional Effectiveness Research, a funding body Dr. Cashburn described as \u201cideally positioned for this moment\u201d and which was not, as of last month, listed among her priority funders.</p>
+
+      <p>The application, titled <em>Measuring the Measurable: A Longitudinal Framework for Quantifying Institutional Readiness in Accreditation-Adjacent Environments</em>, lists the OAA\u2019s ongoing accreditation review as its primary empirical context. The abstract describes the institution as \u201ca uniquely data-rich environment currently generating real-time compliance data at scale.\u201d The Global Academic Standards Consortium (GASC) review is not described as a crisis.</p>
+
+      <p>\u201cWe have an opportunity here that most institutions simply would not have access to,\u201d Dr. Cashburn said. \u201cWe are living the research. That is, from a methodological standpoint, an advantage.\u201d She confirmed that the ethics review timeline was \u201cbeing managed.\u201d</p>
+
+      <p>The grant application lists three co-investigators. One has confirmed their participation. One has not responded to communications. One, upon being contacted for this article, asked whether they were already listed. They are.</p>
+    `
+  },
+
+  // BREAKING #4 — Bugsy Form 7.4.2-AAD now available — Friday April 17, 12:00
+  {
+    id: "bugsy-form-742-aad-available",
+    title: "Form 7.4.2-AAD Now Available; Applicants Must Complete Two Prerequisite Forms Before Obtaining It",
+    date: "2026-04-17",
+    publish_date: "2026-04-17T12:00",
+    status: "published",
+    thread: "A",
+    format: "breaking",
+    author: "Dean Bugsy",
+    authorId: "dean-bugsy",
+    tags: ["Dean Bugsy", "AAD", "Administration", "Forms", "Accreditation"],
+    excerpt: "Dean Bugsy has announced that Form 7.4.2-AAD is now available. To obtain it, applicants must first complete Form 7.4.2-A and Form 7.4.2-B. Form 7.4.2-B is available upon successful submission of Form 7.4.2-A.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `FORM 7.4.2-AAD IS NOW AVAILABLE.\n\nTo obtain it:\n\u2192 Complete Form 7.4.2-A (available in person)\n\u2192 Submit 7.4.2-A \u2192 receive Form 7.4.2-B\n\u2192 Submit 7.4.2-B \u2192 receive Form 7.4.2-AAD\n\u2192 Submit Form 7.4.2-AAD\n\nProcessing time: 6\u20138 weeks.\nExtensions available via Form 7.4.2-EXT.\nForm 7.4.2-EXT requires Form 7.4.2-AAD as a prerequisite.\n\nThe OAA: the process is the product.\n\n#OAA #OfficeOfAlternateAcademia #DeanBugsy #Bureaucracy #AcademicLife`,
+      instagram: `FORM 7.4.2-AAD IS NOW AVAILABLE.\n\nStep 1: Get 7.4.2-A\nStep 2: Submit \u2192 get 7.4.2-B\nStep 3: Submit \u2192 get 7.4.2-AAD\nStep 4: Submit. Wait 6\u20138 weeks.\n\nExtension form requires 7.4.2-AAD.\n\n#OAA #DeanBugsy #Bureaucracy #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#DeanBugsy", "#Bureaucracy", "#AcademicLife", "#AcademicHumor", "#HigherEd"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A middle-aged administrator stands behind a desk, presenting a single document with both hands as though it were a ceremonial object. Behind him, a large flowchart on the wall shows a maze of arrows connecting boxes in a loop. His expression is calm and genuinely helpful.\nMood: bureaucratic serenity.\nNo text, no logos, no real people.`,
+      copy: `Form 7.4.2-AAD is now available. To get it, you need two other forms. One of those forms requires the other. Processing takes 6\u20138 weeks. Extensions require Form 7.4.2-AAD. This is not considered a circular process. It is considered a complete process.`
+    },
+    content: `
+      <p>Dean Bugsy\u2019s office has confirmed that Form 7.4.2-AAD \u2014 the primary submission instrument for Accreditation-Adjacent Documentation (AAD) \u2014 is now available to all eligible institutional parties.</p>
+
+      <p>To obtain Form 7.4.2-AAD, applicants must first complete the AAD Processing Intent Declaration (Form 7.4.2-A), available from the Office of Administrative Affairs during core administrative hours. Upon successful submission of Form 7.4.2-A, applicants will receive the AAD Class Request Form (Form 7.4.2-B). Submission of Form 7.4.2-B enables access to Form 7.4.2-AAD.</p>
+
+      <p>\u201cThis represents the full activation of the AAD submission pathway,\u201d Dean Bugsy said in a written statement. \u201cThe process is now accessible to all parties who have completed the process.\u201d</p>
+
+      <p>Neither Form 7.4.2-A nor Form 7.4.2-B is currently available in electronic format. Processing times for Form 7.4.2-AAD, once received by the Office, are estimated at six to eight weeks. Processing extensions are managed through Form 7.4.2-EXT, which lists Form 7.4.2-AAD as a prerequisite document. Dean Bugsy confirmed that this was \u201cprocedurally correct.\u201d</p>
+    `
+  },
+
+  // SOCIAL MICRO #2 — Institutional stat / Calculon numbers — Thursday April 16, 17:00
+  {
+    id: "social-week-2-calculon-stats",
+    title: "This Week in Numbers \u2014 The Compliance Gap Analysis",
+    date: "2026-04-16",
+    publish_date: "2026-04-16T17:00",
+    status: "published",
+    thread: "A",
+    format: "social-only",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["Prof. Calculon", "ESRTF", "Accreditation", "Social"],
+    excerpt: "A data summary of the ESRTF Compliance Gap Analysis session: 47 slides, 6 attendees, 0 decisions, 94 gap units, 1 query noted but not addressed.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `\uD83D\uDCCA THIS WEEK AT THE OAA \u2014 BY THE NUMBERS:\n\n47: Slides in the Compliance Gap Analysis\n6: Attendees at the ESRTF session\n1: Attendee who left before slide 10 (did not return)\n94: Units of compliance gap on Prof. Calculon\u2019s axis\n0: Gap units explained\n1: Student query raised\n0: Student queries addressed\n1: Follow-up presentation under active consideration\n\nAll figures are provisional pending review by the Committee on Institutional Data Accuracy (est. pending).\n\n#OAA #OfficeOfAlternateAcademia #ProfCalculon #Accreditation #AcademicHumor`,
+      instagram: `\uD83D\uDCCA THIS WEEK AT THE OAA:\n\n47 slides. 6 attendees. 1 early departure.\n94 gap units. 0 explanations. 1 query. 0 answers.\n\nAll figures provisional pending the Committee on Institutional Data Accuracy (est. pending).\n\n#OAA #ProfCalculon #Accreditation #AcademicHumor #HigherEd`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#ProfCalculon", "#Accreditation", "#AcademicHumor", "#HigherEd", "#AcademicTwitter"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A large chalkboard covered in numbers, arrows, and a hand-drawn circle with a question mark at its center. A disheveled professor with glasses stands to the side looking pleased, pointer in hand. A single small figure in the lower corner has their hand raised.\nMood: absurd, earnest.\nNo text, no logos, no real people.`,
+      copy: `47 slides. 6 people in the room. 94-unit gap. 0 decisions. 1 student query, noted but not addressed. 1 follow-up presentation under consideration. All figures are provisional.`
+    },
+    content: `<p>\uD83D\uDCCA THIS WEEK AT THE OAA \u2014 BY THE NUMBERS:</p><ul><li>47: Slides in the Institutional Compliance Gap Analysis presentation</li><li>6: Attendees at the Emergency Strategic Response Task Force (ESRTF) session (including one Non-Voting Student Representative)</li><li>1: Attendee who left between slides 9 and 10 and did not return</li><li>94: Units of compliance gap on Prof. Calculon\u2019s visualization axis</li><li>0: Axis labels present (labels were \u201cimplied\u201d)</li><li>1: Student query raised during floor discussion</li><li>0: Student queries addressed</li><li>1: Follow-up presentation under active consideration</li></ul><p>All figures are provisional pending review by the Committee on Institutional Data Accuracy (est. pending).</p>`
+  },
+
+  // BREAKING #3 — Oliver LinkedIn — Thursday April 16, 12:30
+  {
+    id: "oliver-linkedin-esrtf-post",
+    title: "Oliver Grant Publishes 847-Word LinkedIn Article on Student Leadership in Accreditation; Describes ESRTF Participation as \u2018Deeply Immersive\u2019",
+    date: "2026-04-16",
+    publish_date: "2026-04-16T12:30",
+    status: "published",
+    thread: "C",
+    format: "breaking",
+    author: "Oliver Grant",
+    authorId: "oliver-grant",
+    tags: ["Oliver Grant", "ESRTF", "LinkedIn", "Student Representative"],
+    excerpt: "Student Representative Oliver Grant has published an 847-word LinkedIn article on student leadership in accreditation, describing his ESRTF participation as \u2018deeply immersive.\u2019 Meeting records indicate he spoke once to ask about scheduling.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `OLIVER GRANT HAS PUBLISHED A LINKEDIN ARTICLE.\n\n847 words. 7 lessons. 11 reactions (3 from his secondary account).\n\n\u201cI\u2019ve learned that in moments of institutional uncertainty, the student voice is not a footnote. It is, in many ways, the chapter.\u201d\n\nMeeting records show Oliver spoke once at the Emergency Strategic Response Task Force. He asked about scheduling.\n\n#OAA #OfficeOfAlternateAcademia #OliverGrant #AcademicLife #LinkedIn #StudentLeadership`,
+      instagram: `OLIVER GRANT HAS PUBLISHED A LINKEDIN ARTICLE.\n\n847 words on student leadership.\n7 lessons. 11 reactions (3: his secondary account).\n\nHe spoke once at ESRTF.\nHe asked about scheduling.\n\n#OAA #OliverGrant #LinkedIn #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#OliverGrant", "#AcademicLife", "#LinkedIn", "#StudentLeadership", "#AcademicHumor"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A well-dressed young man sits at a caf\u00e9 table, laptop open, phone in hand simultaneously, with a networking smile. He appears to be monitoring reaction counts on his phone while the article is open on the laptop. His posture is slightly too formal for the setting.\nMood: self-important, oblivious.\nNo text, no logos, no real people.`,
+      copy: `Oliver Grant has published 847 words on student leadership in accreditation. He describes his Emergency Strategic Response Task Force role as \u201cdeeply immersive.\u201d He attended two sessions. He spoke once. He asked about scheduling. The article has eleven reactions. Three are from his secondary account.`
+    },
+    content: `
+      <p>Oliver Grant, Student Representative and self-described \u201cactive contributor to the OAA\u2019s institutional transformation process,\u201d has published an 847-word LinkedIn article titled <em>Student Leadership in Times of Institutional Challenge: Seven Lessons from My Work on the Emergency Strategic Response Task Force.</em></p>
+
+      <p>The article has received eleven reactions since publication. Three have been confirmed as originating from Oliver Grant\u2019s secondary LinkedIn account.</p>
+
+      <p>Grant describes his role on the Emergency Strategic Response Task Force (ESRTF) as \u201cdeeply immersive\u201d and his contributions to the accreditation process as \u201cconsistently shaping the direction of dialogue.\u201d Meeting records reviewed by this publication indicate that Grant has attended two ESRTF sessions. He spoke during one of them. The recorded contribution, per official minutes, was a request for confirmation of the next session\u2019s scheduling.</p>
+
+      <p>\u201cI\u2019ve learned that in moments of institutional uncertainty, the student voice is not a footnote,\u201d Grant writes in the article\u2019s conclusion. \u201cIt is, in many ways, the chapter.\u201d He does not specify which chapter.</p>
+
+      <p>Grant has since updated his LinkedIn headline to include the phrase \u201cInstitutional Accreditation Strategist (Experiential).\u201d He described current engagement as \u201cbuilding real momentum.\u201d He has sent connection requests to four members of the GASC review committee. None have responded.</p>
+    `
+  },
+
+  // BREAKING #2 — Clara student research appointment — Thursday April 16, 09:00
+  {
+    id: "clara-student-research-appointment",
+    title: "Clara Quark Receives Student Research Appointment Via Post-it Note; Role Does Not Appear in Institutional Directory",
+    date: "2026-04-16",
+    publish_date: "2026-04-16T09:00",
+    status: "published",
+    thread: "B",
+    format: "breaking",
+    author: "Clara Quark",
+    authorId: "clara-quark",
+    tags: ["Clara Quark", "Research", "Accreditation", "Administration"],
+    excerpt: "Clara Quark has been appointed Student Research Volunteer Coordinator (Acting) via a Post-it note on her mailroom locker. The role does not appear in the institutional directory. No job description was provided.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `CLARA QUARK HAS BEEN APPOINTED.\n\nRole: Student Research Volunteer Coordinator (Acting)\nDelivery method: Post-it note\nSalary line: absent\nJob description: pending\nDirectory listing: pending\n\nShe read the note twice. She asked if there was a job description. There was not.\n\nThe OAA: where roles are created faster than directories are updated.\n\n#OAA #OfficeOfAlternateAcademia #ClaraQuark #AcademicLife #Research`,
+      instagram: `CLARA QUARK HAS BEEN APPOINTED.\n\nVia Post-it note.\nRole: Student Research Volunteer Coordinator (Acting)\nSalary: absent. Directory listing: pending.\n\nThe OAA: where roles arrive before descriptions do.\n\n#OAA #ClaraQuark #AcademicLife #Research #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#ClaraQuark", "#AcademicLife", "#Research", "#HigherEd", "#PhDLife"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A young woman in a university hoodie stands in a mailroom corridor, staring at a small note stuck to a locker door. Her large backpack is on one shoulder. Her expression is one of careful neutrality \u2014 she is clearly working hard to appear unaffected.\nMood: melancholic, resigned.\nNo text, no logos, no real people.`,
+      copy: `Clara Quark has been named Student Research Volunteer Coordinator (Acting). The appointment came via Post-it. No salary line. No job description. The role is not in the directory. She has a meeting on Thursday. She has not been told what it is about. She brought extra pens.`
+    },
+    content: `
+      <p>Clara Quark, a third-year undergraduate student, arrived at her departmental mailroom on Tuesday to find a Post-it note affixed to her locker. The note read: \u201cYou\u2019re our Student Research Volunteer Coordinator now (Acting). Thanks. \u2014 Admin.\u201d The note was not dated. The signatory was not identified. No additional documentation accompanied it.</p>
+
+      <p>The role of Student Research Volunteer Coordinator (Acting) does not appear in the OAA\u2019s current institutional directory. A search of the staffing structure returned no matching position. Dean Bugsy\u2019s office confirmed that a relevant classification form \u201cmay be in development.\u201d</p>
+
+      <p>Quark, reached for comment, read the Post-it note aloud. Twice. She then asked whether there was a job description. There was not. She asked whether a salary was attached. The office confirmed that the role was voluntary in nature. Quark confirmed that she was already aware of this, for unrelated reasons.</p>
+
+      <p>She is reportedly attending her first meeting in this capacity on Thursday. She has not been told what the meeting is about. She has taken her laptop. She brought extra pens.</p>
+    `
+  },
+
+  // FOUND DOCUMENT #1 — Bugsy Form 7.4.2-AAD memo — Wednesday April 15, 19:00
+  {
+    id: "bugsy-form-742-aad-memo",
+    title: "Memorandum: Accreditation-Adjacent Documentation Form 7.4.2-AAD \u2014 Availability Notice and Access Procedure",
+    date: "2026-04-15",
+    publish_date: "2026-04-15T19:00",
+    status: "published",
+    thread: "A",
+    format: "found-memo",
+    author: "Dean Bugsy",
+    authorId: "dean-bugsy",
+    tags: ["Dean Bugsy", "AAD", "Administration", "Forms", "Accreditation"],
+    excerpt: "Dean Bugsy has issued the formal memorandum announcing Form 7.4.2-AAD\u2019s availability. The four-step access pathway described in the document begins and ends with forms.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `MEMORANDUM \u2014 OFFICE OF ADMINISTRATIVE AFFAIRS\n\nForm 7.4.2-AAD is now available.\n\nAccess pathway:\nStep 1: Complete Form 7.4.2-A\nStep 2: Submit \u2192 receive Form 7.4.2-B\nStep 3: Submit \u2192 receive Form 7.4.2-AAD\nStep 4: Submit. \u201cThis completes the access cycle.\u201d\n\n\u2014 Dean Bugsy\n\n#OAA #OfficeOfAlternateAcademia #DeanBugsy #FoundDocument #Bureaucracy`,
+      instagram: `MEMORANDUM:\n\nForm 7.4.2-AAD is available.\nTo get it: fill two forms.\nThe first form enables the second.\n\u201cThis completes the access cycle.\u201d\n\u2014 Dean Bugsy\n\n#OAA #DeanBugsy #FoundDocument #Bureaucracy`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#DeanBugsy", "#FoundDocument", "#Bureaucracy", "#AcademicLife", "#HigherEd"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A middle-aged administrator places a single document into a filing tray on a desk covered in stacked forms and rubber stamps. Behind him, a wall-mounted flowchart shows a series of boxes connected by arrows that form a loop.\nMood: calm, procedural, self-contained.\nNo text, no logos, no real people.`,
+      copy: `Dean Bugsy\u2019s office has issued the formal memo on Form 7.4.2-AAD. It is available. To get it, you need Form 7.4.2-B. To get Form 7.4.2-B, you need Form 7.4.2-A. This completes the access cycle.`
+    },
+    content: `
+      <p>TO: All Faculty, Staff, and Registered Institutional Parties<br>
+      FROM: Office of Administrative Affairs<br>
+      DATE: April 15, 2026<br>
+      RE: Accreditation-Adjacent Documentation (AAD) Form 7.4.2-AAD \u2014 Availability and Access Procedure<br>
+      CC: ESRTF Secretariat; Rector\u2019s Office (for information)</p>
+
+      <p>This memorandum serves as formal notice that Form 7.4.2-AAD, the primary submission instrument for all Accreditation-Adjacent Documentation (AAD) requests, is now available to eligible institutional parties effective immediately.</p>
+
+      <p>Access to Form 7.4.2-AAD is governed by the following pathway:</p>
+
+      <p><strong>Step 1.</strong> Complete the AAD Processing Intent Declaration (Form 7.4.2-A). Form 7.4.2-A is available from the Office of Administrative Affairs during core administrative hours (Tuesday\u2013Thursday, 10:00\u201312:00 and 14:00\u201315:30, excluding administrative review periods).</p>
+
+      <p><strong>Step 2.</strong> Submit Form 7.4.2-A to the Office of Administrative Affairs. Upon review and processing of a complete submission, Form 7.4.2-B (AAD Class Request Form) will be issued to the applicant within the standard processing window.</p>
+
+      <p><strong>Step 3.</strong> Complete and submit Form 7.4.2-B. Upon successful submission, Form 7.4.2-AAD will be made available to the applicant.</p>
+
+      <p><strong>Step 4.</strong> Submit Form 7.4.2-AAD. This completes the access cycle.</p>
+
+      <p>Standard processing time for Form 7.4.2-AAD, once received, is six to eight weeks. Processing extension requests are managed via Form 7.4.2-EXT, which lists a completed Form 7.4.2-AAD submission as a prerequisite.</p>
+
+      <p>Queries regarding this procedure should be directed to the Office of Administrative Affairs in writing, using the standard Query Submission Protocol (Form Q-001).</p>
+
+      <p>This office thanks all parties for their continued compliance with institutional documentation standards.</p>
+
+      <p>\u2014 Office of Administrative Affairs</p>
+    `
+  },
+
+  // SOCIAL MICRO #1 — Clara appointment character moment — Wednesday April 15, 12:00
+  {
+    id: "social-week-2-clara-appointment",
+    title: "Clara Quark Has Been Appointed",
+    date: "2026-04-15",
+    publish_date: "2026-04-15T12:00",
+    status: "published",
+    thread: "B",
+    format: "social-only",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["Clara Quark", "Research", "Social", "Accreditation"],
+    excerpt: "Clara Quark has been appointed Student Research Volunteer Coordinator (Acting). The appointment was delivered via Post-it note. She is the most qualified person in the building for a role she did not apply for.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `CLARA QUARK HAS BEEN APPOINTED STUDENT RESEARCH VOLUNTEER COORDINATOR (ACTING).\n\nShe did not apply for the role.\nThe role did not exist until the note.\nThe note had no date.\nThe salary line was blank.\n\nShe is the most qualified person in the building for a position that does not appear in the directory.\n\nThe OAA: where recognition arrives via Post-it.\n\n#OAA #OfficeOfAlternateAcademia #ClaraQuark #AcademicLife #PhDLife`,
+      instagram: `CLARA QUARK HAS BEEN APPOINTED.\n\nVia Post-it.\nNo application. No salary. No directory listing.\n\nShe is the most qualified person in the building for a job that did not exist until Tuesday.\n\nThe OAA: where recognition arrives via Post-it.\n\n#OAA #ClaraQuark #PhDLife #AcademicLife`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#ClaraQuark", "#AcademicLife", "#PhDLife", "#Research", "#AcademicHumor"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A young woman in a university hoodie stands alone in a corridor, holding a small square piece of paper at arm\u2019s length, staring at it with careful blankness. Her large backpack is on her back. The hallway is empty. An institutional noticeboard behind her is covered in announcements, none of which concern her.\nMood: melancholic, quietly absurd.\nNo text, no logos, no real people.`,
+      copy: `Clara Quark was appointed this week. The appointment came via Post-it. No application, no salary, no directory entry. She is, by any measurable standard, the most qualified person in the building for the role she did not apply for. She brought extra pens.`
+    },
+    content: `<p>CLARA QUARK HAS BEEN APPOINTED STUDENT RESEARCH VOLUNTEER COORDINATOR (ACTING).</p><p>She did not apply for the role. The role did not exist until the note. The note had no date and no salary line. She is the most qualified person in the building for a position that does not appear in the institutional directory.</p><p>The OAA: where recognition arrives via Post-it.</p>`
+  },
+
+  // BREAKING #1 — Rector statement on Calculon presentation — Wednesday April 15, 09:00
+  {
+    id: "rector-calculon-statement",
+    title: "Rector Commends Compliance Gap Analysis as \u2018Compelling in Its Totality\u2019; Does Not Name a Specific Slide",
+    date: "2026-04-15",
+    publish_date: "2026-04-15T09:00",
+    status: "published",
+    thread: "A",
+    format: "breaking",
+    author: "Astrid Vox",
+    authorId: "astrid-vox",
+    tags: ["Rector", "Prof. Calculon", "Accreditation", "ESRTF"],
+    excerpt: "The Rector has issued a five-paragraph statement praising Prof. Calculon\u2019s compliance gap presentation as \u2018compelling in its totality.\u2019 Asked which specific slide was most compelling, the office confirmed: \u2018the totality.\u2019",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `THE RECTOR HAS ISSUED A STATEMENT.\n\nPraise for Prof. Calculon\u2019s Compliance Gap Analysis: five paragraphs.\nSpecific slide mentioned: none.\n\nReporters asked which part was most compelling.\nThe Rector\u2019s office: \u201cThe presentation was compelling in its totality.\u201d\n\nThe compliance gap has not been reduced.\n\n#OAA #OfficeOfAlternateAcademia #RectorInfinitum #Accreditation #AcademicLife`,
+      instagram: `THE RECTOR HAS ISSUED A STATEMENT.\n\n\u201cCompelling in its totality.\u201d\n\nWhich slide?\n\u201cThe totality.\u201d\n\nThe gap remains.\n\n#OAA #RectorInfinitum #Accreditation #AcademicHumor`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#RectorInfinitum", "#Accreditation", "#AcademicLife", "#HigherEd", "#SatireAlert"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A figure in ornate ceremonial academic robes stands at a podium, gesturing expansively toward nothing in particular with complete conviction. The room behind him is empty. A projection screen in the background shows a complex diagram.\nMood: grandiose, absurd.\nNo text, no logos, no real people.`,
+      copy: `The Rector has issued a five-paragraph statement praising Prof. Calculon\u2019s presentation. No slide was named. The presentation was \u201ccompelling in its totality.\u201d The compliance gap has not been reduced. A follow-up presentation remains under consideration.`
+    },
+    content: `
+      <p>The Office of the Supreme Grand Rector Infinitum has released a written statement commending Prof. Arjun Calculon\u2019s Institutional Compliance Gap Analysis presentation, delivered at the most recent Emergency Strategic Response Task Force (ESRTF) session, as \u201ca remarkable act of institutional clarity delivered with the precision this moment has demanded.\u201d</p>
+
+      <p>The statement ran to five paragraphs. It praised the analytical framework, the depth of quantitative engagement, and what it described as \u201cthe institutional courage required to confront our own readiness landscape at scale.\u201d The compliance gap \u2014 the subject of the analysis \u2014 was not mentioned by name.</p>
+
+      <p>A reporter asked the Rector\u2019s office to identify which element of the presentation had been most compelling. The office replied that the presentation had been \u201ccompelling in its totality.\u201d A follow-up question about a specific slide received the same response. The word \u201ctotality\u201d appeared three times in the correspondence.</p>
+
+      <p>Prof. Calculon acknowledged receipt of the statement. He has not been asked to address the gap the analysis identified. A follow-up presentation is, according to sources familiar with the task force\u2019s plans, still under active consideration.</p>
+    `
+  },
+
+  // ANCHOR — Calculon 47-slide ESRTF presentation — Tuesday April 14, 16:00
+  {
+    id: "calculon-47-slides-esrtf",
+    title: "ESRTF Convenes for Compliance Gap Analysis; Prof. Calculon Presents 47 Slides to Room of Six",
+    date: "2026-04-14",
+    publish_date: "2026-04-14T16:00",
+    status: "published",
+    thread: "A",
+    format: "anchor",
+    author: "Clara Quark",
+    authorId: "clara-quark",
+    tags: ["ESRTF", "Prof. Calculon", "Accreditation", "Clara Quark", "Dean Bugsy", "Max Afterparty"],
+    excerpt: "Prof. Calculon presented a 47-slide Institutional Compliance Gap Analysis to a room of six at the ESRTF session. The gap, measured on a 94-point unlabeled axis, remains. A follow-up presentation is under consideration.",
+    coverImage: "",
+    coverAlt: "",
+    social: {
+      facebook: `47 SLIDES. SIX ATTENDEES. ZERO DECISIONS.\n\nProf. Calculon has presented the OAA\u2019s Compliance Gap Analysis to the ESRTF.\nThe gap is 94 units wide. The units are not labeled. The labels are \u201cimplied.\u201d\n\nMax Afterparty asked: \u201cSo the gap is the whole thing?\u201d\nThe question was noted. The question was not addressed.\n\nA follow-up presentation is under consideration.\n\n#OAA #OfficeOfAlternateAcademia #ProfCalculon #Accreditation #AcademicLife #HigherEd`,
+      instagram: `47 SLIDES. SIX ATTENDEES. ZERO DECISIONS.\n\nThe gap: 94 units wide. Axis: unlabeled. Labels: implied.\n\nMax Afterparty: \u201cSo the gap is the whole thing?\u201d\nQuery noted. Query not addressed.\n\nThe OAA: where measurement is a process.\n\n#OAA #ProfCalculon #Accreditation #AcademicHumor #HigherEd`,
+      hashtags: ["#OAA", "#OfficeOfAlternateAcademia", "#ProfCalculon", "#Accreditation", "#AcademicLife", "#HigherEd", "#AcademicTwitter"],
+      image_prompt: `Painterly editorial illustration, slightly satirical, warm muted tones with gold and deep red accents. Academic setting. No text in image. Style: New Yorker cartoon meets university portrait gallery.\n\nScene: A large lecture hall where a disheveled professor with glasses stands at the front, pointer raised triumphantly toward a projection screen showing a single large empty circle. In the sparse audience: five figures scattered across many empty seats, one wearing sunglasses and holding a coffee cup, one young woman near the back with a large backpack, expression carefully neutral. Many empty chairs surround them.\nMood: earnest, melancholic, absurd.\nNo text, no logos, no real people.`,
+      copy: `Prof. Calculon\u2019s compliance gap analysis confirmed that a gap exists. The gap is 94 units wide. The units are proprietary. Six people attended. One had sunglasses. A follow-up presentation is under consideration.`
+    },
+    content: `
+      <p>The Emergency Strategic Response Task Force (ESRTF) convened on Monday for its fourth scheduled session, at which Prof. Arjun Calculon, Head of the Department of Computational Everything, presented a 47-slide Institutional Compliance Gap Analysis to a room containing six people, one of whom left between slides 9 and 10 and did not return.</p>
+
+      <p>The presentation, titled <em>A Quantitative Framework for Identifying, Measuring, and Operationalizing Institutional Readiness Deficiencies Across Accreditation-Adjacent Domains</em>, drew on eleven regression models, four composite indices, and what Prof. Calculon described as \u201ca gap visualization axis scaled from 0 to 94, where 0 represents theoretical maximum preparedness and 94 represents where we currently are.\u201d The axis was not labeled in either direction. Prof. Calculon confirmed that the labels were \u201cimplied.\u201d</p>
+
+      <p>Of the remaining five attendees, two raised hands during the session. One hand was raised to request a lower room temperature. The other was Max Afterparty, Non-Voting Student Representative (Acting), who waited until slide 31 to ask: \u201cSo the gap is the whole thing?\u201d The question was recorded in the meeting log as \u201ca student query.\u201d It was not addressed.</p>
+
+      <p>Dean Bugsy, present as chair, responded to the presentation by announcing that the slides would need to be submitted in Accreditation-Adjacent Documentation (AAD) Class II format before being formally received by the task force. Prof. Calculon confirmed that he did not have the relevant form. Dean Bugsy confirmed that the form was not yet available. Both parties agreed that this represented a process that was moving forward.</p>
+
+      <p>Following the session, three attendees \u2014 including Dean Bugsy and a faculty member who had been present since slide 12 \u2014 requested a plain-language summary of slide 31. This writer provided one. The summary was longer than slide 31. The attendees thanked this writer and left. No one asked Prof. Calculon, who remained at the front of the room repacking his slides in reverse order. He appeared satisfied.</p>
+
+      <p>\u201cThe analysis demonstrates precisely the kind of gap we anticipated,\u201d Prof. Calculon said. \u201cThe gap is consistent with our models. The models predicted a gap of this magnitude within a confidence interval of plus or minus 6.3 institutional readiness units. We are within the interval.\u201d He paused. \u201cIn measurable terms, this is a success.\u201d</p>
+
+      <p>Asked whether the gap \u2014 the compliance deficit the analysis was designed to quantify \u2014 would be reduced as a result of the presentation, Prof. Calculon said that question was outside the scope of this phase of the project. A second presentation is, according to people familiar with the task force\u2019s plans, under active consideration.</p>
+    `
+  },
+
+  // BREAKING — IJTOAA Publication #1 — Tuesday April 14, 09:00
   {
     id: "breaking-ijtoaa-1-publication",
     title: "OAA Publishes First Peer-Reviewed Paper; Community Reacts With Emotion Proportional to Its Significance",
